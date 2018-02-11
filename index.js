@@ -1,5 +1,6 @@
 var cart = [];
 
+
 function getCart() {
  return cart;
 }
@@ -11,6 +12,8 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ var booker = item['value']
+ return booker
 }
 
 function viewCart() {
