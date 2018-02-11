@@ -11,7 +11,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- console.log(item);
+ ;
  cart.push(item);
  var booker = item['value']
  return booker
